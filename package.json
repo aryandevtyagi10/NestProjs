@@ -1,0 +1,19 @@
+{
+  "name": "nesting",
+  "version": "1.0.0",
+  "description": "a project managment application",
+  "keywords": [
+    "backend",
+    "api"
+  ],
+  "license": "ISC",
+  "author": "aryan",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node index.js"
+  },
+  "devDependencies": {
+    "prettier": "3.6.2"
+  }
+}
