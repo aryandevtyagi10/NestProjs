@@ -1,15 +1,12 @@
 import dotenv from "dotenv";
-
-
+import app from "./app.js";
 dotenv.config({
     path: "./.env",
 });
 
-let myusername = process.env.username;
-let mydatabase = process.env.database;
-
-console.log("database:",mydatabase);
-console.log("value:",myusername);
+const port = process.env.PORT || 8000;
 
 
-console.log("Starting my backend project ");
+app.listen(port,()=>{
+    console.log(`Server is running on port http://localhost:${port}`);
+});
